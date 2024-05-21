@@ -5,7 +5,7 @@ import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.neoforge.event.entity.living.LivingAttackEvent;
 
-@Mod.EventBusSubscriber(modid = SampleCraft.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
+@Mod.EventBusSubscriber(modid = SampleCraft.MOD_ID, bus = Mod.EventBusSubscriber.Bus.FORGE)
 public class SCEvents {
 
     @SubscribeEvent
