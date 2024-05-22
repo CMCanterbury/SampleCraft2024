@@ -23,7 +23,7 @@ public class SCCreativeModeTabs {
                     .displayItems(((pParameters, pOutput) -> {
                         pOutput.accept(SCItems.EXAMPLE_ITEM);
                         pOutput.accept(SCItems.SECOND_ITEM);
-//                        pOutput.accept(SCBlocks.EXAMPLE_BLOCK);
+                        pOutput.accept(SCBlocks.EXAMPLE_BLOCK);
                     }))
                     .build()
     );
