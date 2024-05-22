@@ -1,7 +1,10 @@
 package com.mrmacky.samplecraft.registry;
 
 import com.mrmacky.samplecraft.SampleCraft;
+import com.mrmacky.samplecraft.blocks.LaunchBlock;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.material.MapColor;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -13,6 +16,9 @@ public class SCBlocks {
     public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(SampleCraft.MOD_ID);
 
     //Blocks go here
+//    public static DeferredBlock<Block> EXAMPLE_BLOCK = registerWithItem("example_block", () -> new Block(BlockBehaviour.Properties.of().mapColor(MapColor.STONE)));
+
+    public static final DeferredBlock<Block> EXAMPLE_BLOCK = BLOCKS.register("example_block", () -> new LaunchBlock(BlockBehaviour.Properties.of().mapColor(MapColor.STONE)));
 
     public static void register(IEventBus bus) {
         BLOCKS.register(bus);

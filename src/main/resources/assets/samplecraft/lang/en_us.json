@@ -1,4 +1,7 @@
 {
   "item.samplecraft.example_item": "Example Item",
-  "item.samplecraft.second_item": "Second Item"
+  "item.samplecraft.second_item": "Second Item",
+  "itemGroup.creative_tab": "Creative Tab",
+  "block.samplecraft.example_block": "Example Block",
+  "item.samplecraft.example_block": "Example Block"
 }
