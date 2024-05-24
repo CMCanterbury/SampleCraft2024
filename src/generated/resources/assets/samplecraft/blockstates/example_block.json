@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "samplecraft:block/example_block"
+    }
+  }
+}

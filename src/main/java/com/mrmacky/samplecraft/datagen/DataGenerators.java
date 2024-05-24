@@ -23,7 +23,7 @@ public class DataGenerators {
         ExistingFileHelper helper = event.getExistingFileHelper();
         CompletableFuture<HolderLookup.Provider> lookupProvider = event.getLookupProvider();
 
-        generator.addProvider(event.includeServer(), new SCRecipeProvider(packOutput));
+        generator.addProvider(event.includeServer(), new SCRecipeGenerator(packOutput));
         generator.addProvider(event.includeClient(), new SCBlockStateGenerator(packOutput, helper));
         generator.addProvider(event.includeClient(), new SCItemModelGenerator(packOutput, helper));
         generator.addProvider(event.includeServer(), new SCBlockTagGenerator(packOutput, lookupProvider, helper));

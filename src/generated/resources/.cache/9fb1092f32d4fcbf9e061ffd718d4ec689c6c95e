@@ -1,0 +1,7 @@
+// 1.20.4	2024-05-24T13:22:50.362263	Recipes
+8c8464b576b104500b7ac5ad4eacd2079e7367fa data/samplecraft/advancements/recipes/misc/example_block.json
+49ba3d3752d007951e2a9535960edd7188d2fbc1 data/samplecraft/advancements/recipes/misc/example_item.json
+3e19fd0247e7bfc0551bc3579cc65ad57b704ef4 data/samplecraft/advancements/recipes/misc/second_item_from_smelting_example_item.json
+98155e56a10ea9d19fa6e57511e23c8f264ed9c7 data/samplecraft/recipes/example_block.json
+14d3ce01a6f4a996e90fe97decdf0229434ed630 data/samplecraft/recipes/example_item.json
+c015ea3a643d264cb9acd7bb827f4c1e8feb663a data/samplecraft/recipes/second_item_from_smelting_example_item.json
