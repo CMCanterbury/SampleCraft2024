@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "samplecraft:example_item"
+    },
+    "B": {
+      "item": "samplecraft:second_item"
+    }
+  },
+  "pattern": [
+    "###",
+    "#B#",
+    "###"
+  ],
+  "result": {
+    "item": "samplecraft:example_block",
+    "count": 2
+  }
+}
